@@ -14,8 +14,8 @@ This [RunPod](https://runpod.io/) template focuses on secure training and infere
 | Var name | Description |
 | -------- | ----------- |
 | STORJ_ACCESS | The [access grant](https://docs.storj.io/dcs/concepts/access/access-grants) to use for transferring file from and to your Storj DCS account |
-| STORJ_BUCKET | The bucket to use  for transferring file from and to your Storj DCS account |
-| STORJ_MODEL_PATH | The object key to a specific AI model, or a prefix/folder with multiple AI models to automatically download at startup |
+| STORJ_BUCKET | The bucket to use for transferring files from and to your Storj DCS account |
+| STORJ_MODEL_PATH | The object key to a specific AI model or a prefix/folder with multiple AI models to automatically download at startup |
 
 If the Docker container is configured with all three environment variables, it will automatically download the AI models at startup.
 
