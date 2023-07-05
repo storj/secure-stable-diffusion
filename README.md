@@ -2,6 +2,11 @@
 
 This [RunPod](https://runpod.io/) template focuses on secure training and inference with Stable Diffusion by securely storing and fetching datasets and checkpoints from the Storj Decentralized Storage Cloud.
 
+## Quickstart
+
+Use this link to run the template in your RunPod account:
+https://runpod.io/gsc?template=3jgnr4mriw&ref=se98m3j8
+
 ## Included in this Docker image
 
 * [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
