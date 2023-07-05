@@ -12,7 +12,7 @@ https://runpod.io/gsc?template=3jgnr4mriw&ref=se98m3j8
 * [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 * [Stable Studio](https://github.com/Stability-AI/StableStudio)
 * Automated fetching of AI models from your Storj account on startup
-* Jupyter Notebook for DreamBooth training and storing the trained checkpoints to your Storj account.
+* Jupyter Notebook for [DreamBooth](https://dreambooth.github.io/) training and storing the trained checkpoints to your Storj account.
 
 ## Environment variables
 
