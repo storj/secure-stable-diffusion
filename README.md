@@ -1,4 +1,4 @@
-# Secure Stable Diffusion RunPod Template
+# Secure Stable Diffusion Template for RunPod
 
 This [RunPod](https://runpod.io/) template focuses on secure training and inference with Stable Diffusion by securely storing and fetching datasets and checkpoints from the Storj Decentralized Cloud Storage.
 
