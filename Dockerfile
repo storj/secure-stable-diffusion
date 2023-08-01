@@ -17,14 +17,14 @@ apt install --yes --no-install-recommends \
 python -m pip install --upgrade pip && \
 python -m venv /workspace/venv && \
   export PATH="/workspace/venv/bin:$PATH" && \
-curl -L https://github.com/storj/storj/releases/download/v1.82.1/uplink_linux_amd64.zip -o uplink_linux_amd64.zip && \
+curl -L https://github.com/storj/storj/releases/download/v1.84.1/uplink_linux_amd64.zip -o uplink_linux_amd64.zip && \
   unzip -o uplink_linux_amd64.zip && \
   install uplink /usr/local/bin/uplink && \
   rm uplink_linux_amd64.zip && \
   rm uplink && \
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git && \
   cd stable-diffusion-webui && \
-  git checkout tags/v1.3.2 && \
+  git checkout tags/v1.5.1 && \
   mv /workspace/install-automatic.py /workspace/stable-diffusion-webui/ && \
   python -m install-automatic --skip-torch-cuda-test && \
 cd /workspace/stable-diffusion-webui && \
